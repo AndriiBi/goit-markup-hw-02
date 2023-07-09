@@ -1,8 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
   line-height: 1.5;
+}
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-white-color: #ffffff;
 }
 
 ul {
@@ -68,9 +73,6 @@ a {
 
 .main-section {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  padding-top: 188px;
 }
 
 .main-section-title {
@@ -79,8 +81,6 @@ a {
   font-weight: 700;
   text-align: center;
   line-height: 1.07;
-  width: 496px;
-  height: 120px;
   margin-left: 472px;
 }
 
@@ -91,17 +91,10 @@ a {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  border-radius: 4px;
   text-shadow: none;
-  width: 169px;
-  height: 56px;
   margin-left: 636px;
   margin-top: 48px;
   margin-bottom: 188px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
   cursor: pointer;
 }
 
@@ -148,8 +141,6 @@ h3 {
 
 footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-logo-web {
@@ -181,11 +172,8 @@ footer {
   background-color: #404bbf;
   color: #ffffff;
   cursor: pointer;
-  border-radius: 4px;
   font-size: 16px;
   text-shadow: none;
-  width: 69px;
-  height: 48px;
   text-align: center;
 }
 
@@ -193,7 +181,6 @@ footer {
   background-color: #e7e9fc;
   color: #4d5ae5;
   cursor: pointer;
-  border-radius: 4px;
   font-size: 16px;
   text-shadow: none;
   text-align: center;
