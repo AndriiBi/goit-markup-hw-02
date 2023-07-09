@@ -24,8 +24,9 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-align: left;
-  line-height: 1.166;
-  margin-left: 156px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .logo-studio {
@@ -34,28 +35,45 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-align: left;
-  line-height: 1.166;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
 }
 
 .header-link {
-  color: #2e2f42;
-  font-size: 16px;
   font-weight: 500;
-  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.header-link:focus,
-.header-link:hover {
+.link {
+  text-decoration: none;
+}
+
+.link-studio:hover {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .mail-link {
   color: #434455;
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.mail-link :focus,
+.mail-link :focus {
+  color: #404bbf;
+}
 .mail-link:hover {
   color: #404bbf;
 }
@@ -64,6 +82,7 @@ a {
   color: #434455;
   font-style: normal;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .tel-link:focus,
