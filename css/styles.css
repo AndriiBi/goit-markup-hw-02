@@ -123,57 +123,70 @@ a {
   letter-spacing: 0.02em;
 }
 
-h2 {
+.engage-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
-  line-height: 0.9;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-h3 {
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
   color: #2e2f42;
-  text-align: left;
-  font-size: 20px;
-  line-height: 0.83;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-card {
+  background-color: #ffffff;
 }
 
 .team-name {
+  color: #2e2f42;
   text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team-text {
   color: #434455;
   font-size: 16px;
   text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
 }
 
-.footer-logo-web {
-  color: #4d5ae5;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  text-align: left;
-  line-height: 1.166;
-  margin-left: 156px;
-}
-
-.footer-logo-studio {
+.logo-studio-footer {
   color: #f4f4fd;
   font-size: 18px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-align: left;
-  line-height: 1.166;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .footer-text {
   color: #f4f4fd;
   font-size: 16px;
   text-align: left;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .filter-btn-all {
