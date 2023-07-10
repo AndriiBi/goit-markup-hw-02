@@ -189,26 +189,35 @@ a {
   line-height: 1.5;
 }
 
-.filter-btn-all {
-  background-color: #404bbf;
-  color: #ffffff;
+.filter-btn {
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
+  color: #f4f4fd;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   font-size: 16px;
-  text-shadow: none;
   text-align: center;
 }
 
-.filter-btn {
-  background-color: #e7e9fc;
-  color: #4d5ae5;
-  cursor: pointer;
-  font-size: 16px;
-  text-shadow: none;
-  text-align: center;
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.img-title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .img-text {
   color: #434455;
   font-size: 16px;
-  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
